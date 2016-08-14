@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html manifest="" lang="zh_CN">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <title>{% block title %}RedisManage!{% endblock %}</title>
+    {% block stylesheets %}{% endblock %}
+
+    {% block javascripts %}
+
+    <script>
+        window.BaseInfo = {
+            _csrf_token: "{{ csrf }}"
+        };
+    </script>
+
+    {% endblock %}
+
+</head>
+<body>
+{% block body %}
+
+{% endblock %}
+{% block footer_javascripts %}{% endblock %}
+</body>
+</html>

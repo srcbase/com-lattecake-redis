@@ -1,0 +1,163 @@
+.auth-dialog .auth-profile-wrap {
+    background: #35baf6 none repeat scroll 0 0;
+    color: #fff;
+    line-height: 24px;
+}
+
+.auth-dialog .auth-profile-wrap .user-name-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.auth-dialog .auth-profile-wrap .user-post-text {
+    font-size: 14px;
+}
+
+.auth-dialog .auth-profile-wrap .auth-profile-img {
+    border-radius: 50%;
+}
+
+.auth-dialog .x-form-text-default {
+    padding: 15px;
+}
+
+.auth-dialog .register-page-back-button, .auth-dialog .register-page-back-button .x-frame-mc {
+    background-color: #fff;
+    border: medium none;
+    padding: 5px 0 0;
+}
+
+.auth-dialog .register-page-back-button .x-btn-inner-default-small, .auth-dialog .register-page-back-button .x-frame-mc .x-btn-inner-default-small {
+    color: #35baf6;
+    height: 20px;
+    padding: 0;
+}
+
+.auth-dialog .register-page-back-button .x-btn-inner-default-small:hover, .auth-dialog .register-page-back-button .x-frame-mc .x-btn-inner-default-small:hover {
+    text-decoration: underline;
+}
+
+.auth-dialog .register-page-back-button.x-btn-pressed.x-btn-default-small, .auth-dialog .register-page-back-button .x-frame-mc.x-btn-pressed.x-btn-default-small {
+    background-color: transparent;
+}
+
+.auth-dialog .trigger-glyph-noop {
+    cursor: default;
+}
+
+.auth-dialog .x-form-trigger {
+    text-align: right;
+    width: 50px;
+}
+
+.auth-dialog .password-trigger::before, .auth-dialog .auth-email-trigger::before, .auth-dialog .auth-password-trigger::before, .auth-dialog .auth-envelope-trigger::before {
+    color: #e5e5e5;
+    font-size: 30px;
+    left: -18px;
+    position: relative;
+    top: 10px;
+}
+
+.auth-dialog .password-trigger.password-trigger::before, .auth-dialog .password-trigger.auth-password-trigger::before, .auth-dialog .auth-email-trigger.password-trigger::before, .auth-dialog .auth-email-trigger.auth-password-trigger::before, .auth-dialog .auth-password-trigger.password-trigger::before, .auth-dialog .auth-password-trigger.auth-password-trigger::before, .auth-dialog .auth-envelope-trigger.password-trigger::before, .auth-dialog .auth-envelope-trigger.auth-password-trigger::before {
+    content: "";
+}
+
+.auth-dialog .password-trigger.auth-email-trigger::before, .auth-dialog .auth-email-trigger.auth-email-trigger::before, .auth-dialog .auth-password-trigger.auth-email-trigger::before, .auth-dialog .auth-envelope-trigger.auth-email-trigger::before {
+    content: "";
+}
+
+.auth-dialog .password-trigger.auth-envelope-trigger::before, .auth-dialog .auth-email-trigger.auth-envelope-trigger::before, .auth-dialog .auth-password-trigger.auth-envelope-trigger::before, .auth-dialog .auth-envelope-trigger.auth-envelope-trigger::before {
+    content: "";
+}
+
+.auth-dialog .seperator {
+    background: #fff none repeat scroll 0 0;
+    color: #a1a1a2;
+    display: inline-block;
+    font-family: "Open Sans";
+    padding: 0 8px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.auth-dialog .link-forgot-password {
+    color: #35baf6;
+    line-height: 32px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.auth-dialog .link-forgot-password:hover {
+    text-decoration: underline;
+}
+
+.auth-dialog .x-btn .x-btn-icon-el::before {
+    font-size: 24px;
+    position: absolute;
+    right: 10px;
+}
+
+.auth-dialog .auth-facebook-button .x-fa {
+    color: #fff;
+    font-size: 24px;
+    right: 13px;
+    top: 10px;
+}
+
+.auth-dialog .auth-login-button .x-fa, .auth-dialog .auth-resetpassword-button .x-fa {
+    font-size: 32px;
+    line-height: 16px;
+    right: 11px;
+    top: 10px;
+}
+
+.auth-dialog .auth-create-account-button .x-fa {
+    color: #fff;
+    right: 24px;
+    top: 10px;
+}
+
+.auth-dialog .outer-div {
+    text-align: center;
+    width: 100%;
+}
+
+.auth-dialog .outer-div::after {
+    background-color: #cacaca;
+    content: " ";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 9px;
+    width: 100%;
+}
+
+.auth-locked-window .x-window-body {
+    background-image: url("../images/lock-screen-background.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.auth-locked-window.x-window-default {
+    border: medium none;
+    border-radius: 0;
+    padding: 0;
+}
+
+.auth-locked-window .x-window-body {
+    background-image: url('../images/lock-screen-background.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.x-window-default {
+    border: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+.fa-angle-right:before {
+    content: "\f105" !important
+}
+
